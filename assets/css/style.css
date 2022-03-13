@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+.form-check.check__container__item {
+    min-width: 200px;
+    margin: auto;
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+.list-group.task__container .list-group-item {
+    min-width: 219px;
+    font-size: 18px;
+}
+
+/* Clock */
+.clock__container {
+    background: url(../images/KcnezkMcq.jpeg) no-repeat;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock__container::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #9a9a9a;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    z-index: 99;
+}
+
+.clock__container .s {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    transform: rotate(32deg);
+}
+
+.clock__container .m {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    transform: rotate(56deg);
+}
+
+.clock__container .h {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+}
+
+.clock__container .h::before {
+    content: "";
+    width: 9px;
+    height: 83px;
+    background: #3e2e2e;
+    border-radius: 50px;
+    position: absolute;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.clock__container .m::before {
+    content: "";
+    width: 9px;
+    height: 123px;
+    background: #3f3d34;
+    border-radius: 50px;
+    position: absolute;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.clock__container .s::before {
+    content: "";
+    width: 9px;
+    height: 145px;
+    background: #3e2e2e;
+    border-radius: 50px;
+    position: absolute;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+/* Calculatior */
+
+.calculator {
+    width: 8cm !important;
+    border-radius: 10px;
+    background: #22252D;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+
+
+.calculator.day {
+    width: 8cm !important;
+    border-radius: 10px;
+    background: #FFF;
+    color: #3e3131;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+.calculator.day * {
+    color: #3e3131 !important;
+    background: rgb(255, 255, 255);
+}
+
+.calculator.day .bottom {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
+}
+
+.calculator.day .calculator__switcher {
+    background-color: whitesmoke !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.calculator.day .calculator__switcher i {
+    background-color: whitesmoke !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.calculator.day .calculator__switcher i:active {
+    background-color: rgb(215, 230, 230) !important;
+}
+
+.calculator.day .calculator__switcher i:hover {
+    background-color: rgb(245, 230, 240) !important;
+}
+
+.calculator.day .calculator__switcher i.current {
+    color: rgba(0, 0, 0, 0.514) !important;
+}
+
+.calculator .calculator__switcher i.current {
+    color: rgb(138, 131, 131) !important;
+}
+
+.calculator.day .calculator__btns button:nth-child(1),
+.calculator.day .calculator__btns button:nth-child(2),
+.calculator.day .calculator__btns button:nth-child(3) {
+    color: rgba(0, 0, 0, 0.514) !important;
+}
+
+.calculator.day .calculator__btns button:active {
+    background: whitesmoke;
+}
+
+.calculator.day .calculator__btns button:nth-child(4),
+.calculator.day .calculator__btns button:nth-child(8),
+.calculator.day .calculator__btns button:nth-child(12),
+.calculator.day .calculator__btns button:nth-child(16) {
+    color: rgb(245, 47, 47) !important;
+}
+
+
+
+
+.calculator__text input {
+    border: none;
+    width: 100%;
+}
+
+.calculator__text input:active,
+.calculator__text input:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+
+
+
+.calculator .bottom {
+    padding: 15px;
+    background: #2A2D36;
+    border-radius: 30px 30px 0px 0px;
+}
+
+
+.calculator button,
+.calculator input {
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+.calculator__switcher * {
+    cursor: pointer;
+}
+
+.calculator__text input {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.calculator__text div {
+    text-align: right;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.calculator__btns {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calculator__btns button {
+    background: #272A33;
+    font-size: 20px;
+    width: 20%;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+.calculator .calculator__text {
+    margin-top: 60px;
+}
+
+.calculator .calculator__text {
+    margin-top: 60px;
+}
+
+.calculator__switcher i {
+    padding: 12px 20px;
+}
+
+.calculator__switcher i:active {
+    background: #00000012;
+    border-radius: 10px;
+}
+
+.calculator__switcher {
+    background: #2A2D37;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.calculator__btns button:active {
+    background: #272A33 !important;
+}
+
+.calculator__btns button:hover {
+    background: rgb(38, 38, 38);
+}
+
+.calculator.day .calculator__btns button:active {
+    background: white !important;
+}
+
+.calculator.day .calculator__btns button:hover {
+    background: whitesmoke !important;
+}
